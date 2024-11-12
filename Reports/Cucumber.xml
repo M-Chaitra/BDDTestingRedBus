@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="18.156" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="AddToCart" name="Verify that user is able to add product to cart" time="10.587">
+<system-out><![CDATA[
+Given Browser should be launched and URL should be navigated................passed
+And User should be logged in with username "standard_user" and password "secret_sauce".passed
+When User clicks on add to cart button......................................passed
+Then Product should be added to cart........................................passed
+And user should be logged out...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Swag" name="validate user able to login and logout from the browser" time="7.432">
+<system-out><![CDATA[
+When user able to give the valid credentials "standard_user" and "secret_sauce".passed
+And user click on login button..............................................passed
+Then user click on logout...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
